@@ -1,0 +1,1575 @@
+#kangndomain
+{
+   background: #FFFFFF;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+
+}
+.feed-img
+{
+ border-radius:10px;
+}
+
+.kangndolightbox
+{
+   border-radius:10px;
+}
+
+table, ul.kangndohmenu
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.kangndobutton
+{
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #f53016;
+   background: linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   background: -webkit-linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   background: -moz-linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   background: -o-linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   background: -ms-linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   background: linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   -svg-background: linear-gradient(top, ##7abaf8 0, ##7abaf8 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   border:0px solid #8A99A8;
+   padding:0 10px;
+   margin:0 auto;
+   height:40px;
+width:200px;
+}
+
+.kangndopostcontent,
+.kangndopostheadericons,
+.kangndopostfootericons,
+.kangndoblockcontent,
+ul.kangndovmenu a 
+{
+   text-align: left;
+}
+
+.kangndopostcontent,
+.kangndopostcontent li,
+.kangndopostcontent table,
+.kangndopostcontent a,
+.kangndopostcontent a:link,
+.kangndopostcontent a:visited,
+.kangndopostcontent a.visited,
+.kangndopostcontent a:hover,
+.kangndopostcontent a.hovered
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
+}
+
+.kangndopostcontent p
+{
+   margin: 13px 0;
+}
+
+.kangndopostcontent h1, .kangndopostcontent h1 a, .kangndopostcontent h1 a:link, .kangndopostcontent h1 a:visited, .kangndopostcontent h1 a:hover,
+.kangndopostcontent h2, .kangndopostcontent h2 a, .kangndopostcontent h2 a:link, .kangndopostcontent h2 a:visited, .kangndopostcontent h2 a:hover,
+.kangndopostcontent h3, .kangndopostcontent h3 a, .kangndopostcontent h3 a:link, .kangndopostcontent h3 a:visited, .kangndopostcontent h3 a:hover,
+.kangndopostcontent h4, .kangndopostcontent h4 a, .kangndopostcontent h4 a:link, .kangndopostcontent h4 a:visited, .kangndopostcontent h4 a:hover,
+.kangndopostcontent h5, .kangndopostcontent h5 a, .kangndopostcontent h5 a:link, .kangndopostcontent h5 a:visited, .kangndopostcontent h5 a:hover,
+.kangndopostcontent h6, .kangndopostcontent h6 a, .kangndopostcontent h6 a:link, .kangndopostcontent h6 a:visited, .kangndopostcontent h6 a:hover,
+.kangndoblockheader .t, .kangndoblockheader .t a, .kangndoblockheader .t a:link, .kangndoblockheader .t a:visited, .kangndoblockheader .t a:hover,
+.kangndovmenublockheader .t, .kangndovmenublockheader .t a, .kangndovmenublockheader .t a:link, .kangndovmenublockheader .t a:visited, .kangndovmenublockheader .t a:hover,
+.kangndoheadline, .kangndoheadline a, .kangndoheadline a:link, .kangndoheadline a:visited, .kangndoheadline a:hover,
+.kangndoslogan, .kangndoslogan a, .kangndoslogan a:link, .kangndoslogan a:visited, .kangndoslogan a:hover,
+.kangndopostheader, .kangndopostheader a, .kangndopostheader a:link, .kangndopostheader a:visited, .kangndopostheader a:hover
+{
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.kangndopostcontent a, .kangndopostcontent a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #FB8950;
+}
+
+.kangndopostcontent a:visited, .kangndopostcontent a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.kangndopostcontent  a:hover, .kangndopostcontent a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #FCA173;
+}
+
+.kangndopostcontent h1
+{
+   color: #98A6B3;
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h1 a, .kangndopostcontent h1 a:link, .kangndopostcontent h1 a:hover, .kangndopostcontent h1 a:visited, .kangndoblockcontent h1 a, .kangndoblockcontent h1 a:link, .kangndoblockcontent h1 a:hover, .kangndoblockcontent h1 a:visited 
+{
+   font-size: 26px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h2
+{
+   color: #ADB8C2;
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h2 a, .kangndopostcontent h2 a:link, .kangndopostcontent h2 a:hover, .kangndopostcontent h2 a:visited, .kangndoblockcontent h2 a, .kangndoblockcontent h2 a:link, .kangndoblockcontent h2 a:hover, .kangndoblockcontent h2 a:visited 
+{
+   font-size: 22px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h3
+{
+   color: #FCA173;
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h3 a, .kangndopostcontent h3 a:link, .kangndopostcontent h3 a:hover, .kangndopostcontent h3 a:visited, .kangndoblockcontent h3 a, .kangndoblockcontent h3 a:link, .kangndoblockcontent h3 a:hover, .kangndoblockcontent h3 a:visited 
+{
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h4
+{
+   color: #EFF2F5;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h4 a, .kangndopostcontent h4 a:link, .kangndopostcontent h4 a:hover, .kangndopostcontent h4 a:visited, .kangndoblockcontent h4 a, .kangndoblockcontent h4 a:link, .kangndoblockcontent h4 a:hover, .kangndoblockcontent h4 a:visited 
+{
+   font-size: 18px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h5
+{
+   color: #EFF2F5;
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h5 a, .kangndopostcontent h5 a:link, .kangndopostcontent h5 a:hover, .kangndopostcontent h5 a:visited, .kangndoblockcontent h5 a, .kangndoblockcontent h5 a:link, .kangndoblockcontent h5 a:hover, .kangndoblockcontent h5 a:visited 
+{
+   font-size: 15px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h6
+{
+   color: #BCC9D7;
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndopostcontent h6 a, .kangndopostcontent h6 a:link, .kangndopostcontent h6 a:hover, .kangndopostcontent h6 a:visited, .kangndoblockcontent h6 a, .kangndoblockcontent h6 a:link, .kangndoblockcontent h6 a:hover, .kangndoblockcontent h6 a:visited 
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #kangndohmenu-bg, .kangndosheet, .kangndohmenu a, .kangndovmenu a, .kangndoslidenavigator > a, .kangndocheckbox:before, .kangndoradiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #kangndohmenu-bg, .kangndosheet, .kangndoslidenavigator > a, .kangndocheckbox:before, .kangndoradiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 300px;
+   color: #CFD8E2;
+}
+
+.clearfix:before, .clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .kangndopostcontent li h1, .kangndoblockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .kangndopostcontent li h2, .kangndoblockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .kangndopostcontent li h3, .kangndoblockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .kangndopostcontent li h4, .kangndoblockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .kangndopostcontent li h5, .kangndoblockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .kangndopostcontent li h6, .kangndoblockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .kangndopostcontent li p, .kangndoblockcontent li p 
+{
+   margin:1px;
+}
+
+
+.kangndoshapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.kangndoslider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.kangndoslidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.kangndoslidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+.kangndoheadline
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 29px;
+  left: 1.23%;
+  line-height: 100%;
+  margin-left: -2px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 99;
+}
+
+.kangndoheadline, 
+.kangndoheadline a, 
+.kangndoheadline a:link, 
+.kangndoheadline a:visited, 
+.kangndoheadline a:hover
+{
+font-size: 36px;
+font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  margin: 0;
+  color: #F55505 !important;
+  white-space: nowrap;
+}
+.kangndoobject227400126 h1, 
+.kangndoobject227400126 h2, 
+.kangndoobject227400126 h3, 
+.kangndoobject227400126 h4, 
+.kangndoobject227400126 h5, 
+.kangndoobject227400126 h6, 
+.kangndoobject227400126 p, 
+.kangndoobject227400126 a, 
+.kangndoobject227400126 ul, 
+.kangndoobject227400126 ol, 
+.kangndoobject227400126 li
+{
+  line-height: 125%;
+}
+
+.kangndoobject227400126
+{  
+  position: absolute;
+  top: 40px;
+  left: 97.5%;
+  margin-left: -195px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  overflow: hidden;
+    z-index: 101;
+  width: 200px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+.kangndosheet
+{
+   background: #f53016;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 3px 2px rgba(0, 0, 0, 0.15);
+   border:1px solid #FFFFFF;
+   margin:30px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 300px;
+   z-index: auto !important;
+}
+
+.kangndolayout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.kangndocontent-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+   border-collapse: collapse;
+}
+
+.kangndocontent-layout-row 
+{
+   display: table-row;
+}
+
+.kangndolayout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+.kangndoblock
+{
+   margin:3px;
+}
+div.kangndoblock img
+{
+   border: none;
+   margin: 0;
+}
+
+.kangndoblockheader
+{
+   padding:6px 5px;
+   margin:0 auto 2px;
+}
+.kangndoblockheader .t,
+.kangndoblockheader .t a,
+.kangndoblockheader .t a:link,
+.kangndoblockheader .t a:visited, 
+.kangndoblockheader .t a:hover
+{
+   color: #FFFFFF;
+   font-size: 20px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   margin: 0 5px;
+}
+
+.kangndoblockcontent
+{
+   padding:5px;
+   margin:0 auto;
+   color: #CFD8E2;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+.kangndoblockcontent table,
+.kangndoblockcontent li, 
+.kangndoblockcontent a,
+.kangndoblockcontent a:link,
+.kangndoblockcontent a:visited,
+.kangndoblockcontent a:hover
+{
+   color: #CFD8E2;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+}
+
+.kangndoblockcontent p
+{
+   margin: 0 5px;
+}
+
+.kangndoblockcontent a, .kangndoblockcontent a:link
+{
+   color: #FCA173;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndoblockcontent a:visited, .kangndoblockcontent a.visited
+{
+   color: #FFFFFF;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.kangndoblockcontent a:hover, .kangndoblockcontent a.hover
+{
+   color: #FB8950;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+.kangndoblock ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -12px;
+}
+.opera .kangndoblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndoblock li
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
+   color: #EFF2F5;
+   margin: 5px 0 0 10px;
+}
+
+.kangndoblock ul>li, .kangndoblock ol
+{
+   padding: 0;
+}
+
+.kangndoblock ul>li
+{
+   padding-left: 12px;
+}
+
+.kangndobreadcrumbs
+{
+   margin:0 auto;
+}
+
+a.kangndobutton,
+a.kangndobutton:link,
+a:link.kangndobutton:link,
+body a.kangndobutton:link,
+a.kangndobutton:visited,
+body a.kangndobutton:visited,
+input.kangndobutton,
+button.kangndobutton
+{
+   text-decoration: none;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #FFFFFF;
+   margin: 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 24px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.kangndobutton img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .kangndobutton
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea
+{
+   vertical-align: middle;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.kangndoblock select 
+{
+   width:96%;
+}
+
+input.kangndobutton
+{
+   float: none !important;
+}
+
+.kangndobutton.active, .kangndobutton.active:hover
+{
+   background: #f53016;
+   background: linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   background: -moz-linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   background: -o-linear-gradient(top, #0e9c10 0, #60e9c10 100%) no-repeat;
+   background: -ms-linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   background: linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   -svg-background: linear-gradient(top, #0e9c10 0, #0e9c10 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   border:0px solid #8A99A8;
+   padding:0 10px;
+   margin:0 auto;
+}
+.kangndobutton.active, .kangndobutton.active:hover {
+   color: #FFFFFF !important;
+}
+
+.kangndobutton.hover, .kangndobutton:hover
+{
+   background: #f53016;
+   background: linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   background: -moz-linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   background: -o-linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   background: -ms-linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   background: linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   -svg-background: linear-gradient(top, #4dd664 0, #4dd664 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   border:0px solid #A1ADBA;
+   padding:0 10px;
+   margin:0 auto;
+}
+.kangndobutton.hover, .kangndobutton:hover {
+   color: #FFFFFF !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   background: #F9FAFB;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: 100%;
+   padding: 4px 0;
+   color: #3D5166 !important;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+input.kangndoerror, textarea.kangndoerror
+{
+   background: #F9FAFB;
+   border:1px solid #E2341D;
+   margin:0 auto;
+}
+input.kangndoerror, textarea.kangndoerror {
+   color: #3D5166 !important;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.kangndosearch input[type="text"]
+{
+   background: #FFFFFF;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #CCD6E0;
+   margin:0 auto;
+   width: 100%;
+   padding: 3px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #7D2B03 !important;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.kangndosearch 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.kangndosearch input
+{
+   top:0;
+   right:0;
+}
+
+form.kangndosearch>input {
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+ 
+form.kangndosearch input[type="submit"]
+{
+   margin:0 auto;
+   color: #FFFFFF !important;
+   position:absolute;
+   display:block;
+   left: auto;
+   border:none;
+   background:url('images/searchicon.png') center center no-repeat;
+   width:24px;
+   height: 100%;
+   padding:0;
+}
+
+label.kangndocheckbox:before
+{
+   background: #F9FAFB;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.kangndocheckbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+}
+
+.kangndocheckbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.kangndocheckbox.active:before
+{
+   background: #FC905A;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.kangndocheckbox.hovered:before
+{
+   background: #D9DEE3;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:1px;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.kangndoradiobutton:before
+{
+   background: #F9FAFB;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+}
+label.kangndoradiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 12px;
+   display: inline-block;
+}
+
+.kangndoradiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.kangndoradiobutton.active:before
+{
+   background: #B9C2CB;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+label.kangndoradiobutton.hovered:before
+{
+   background: #D9DEE3;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   margin:0 auto;
+   width:12px;
+   height:12px;
+   display: inline-block;
+}
+
+.kangndopost
+{
+   padding:5px;
+}
+a img
+{
+   border: 0;
+}
+
+.kangndoarticle img, img.kangndoarticle, .kangndoblock img, .kangndofooter img
+{
+   margin: 0 0 0 0;
+}
+
+.kangndometadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.kangndoarticle table, table.kangndoarticle
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.kangndopost .kangndocontent-layout-br
+{
+   height: 0;
+}
+
+.kangndoarticle th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 0 0 0 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.kangndocollage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.kangndopostheader
+{
+   color: #EFF2F5;
+   margin: 5px 10px;
+   font-size: 24px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.kangndopostheader a, 
+.kangndopostheader a:link, 
+.kangndopostheader a:visited,
+.kangndopostheader a.visited,
+.kangndopostheader a:hover,
+.kangndopostheader a.hovered
+{
+   font-size: 24px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.kangndopostheader a, .kangndopostheader a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #FDB896;
+}
+
+.kangndopostheader a:visited, .kangndopostheader a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #FFFFFF;
+}
+
+.kangndopostheader a:hover,  .kangndopostheader a.hovered
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #FCA173;
+}
+
+.kangndopostheadericons,
+.kangndopostheadericons a,
+.kangndopostheadericons a:link,
+.kangndopostheadericons a:visited,
+.kangndopostheadericons a:hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #EFF2F5;
+}
+
+.kangndopostheadericons
+{
+   display:inline-block;
+   padding: 1px;
+   margin: 0 0 0 10px;
+}
+
+.kangndopostheadericons a, .kangndopostheadericons a:link
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #FEEBE1;
+}
+
+.kangndopostheadericons a:visited, .kangndopostheadericons a.visited
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #D6DEE6;
+}
+
+.kangndopostheadericons a:hover, .kangndopostheadericons a.hover
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   color: #FED3BE;
+}
+
+.kangndopostdateicon:before
+{
+   content:url('images/postdateicon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .kangndopostdateicon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndopostauthoricon:before
+{
+   content:url('images/postauthoricon.png');
+   margin-right:6px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   bottom: auto;
+}
+.opera .kangndopostauthoricon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndopostediticon:before
+{
+   content:url('images/postediticon.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .kangndopostediticon:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndopostcontent ul>li:before,  .kangndopost ul>li:before,  .kangndotextblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .kangndopostcontent ul>li:before, .opera   .kangndopost ul>li:before, .opera   .kangndotextblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndopostcontent li, .kangndopost li, .kangndotextblock li
+{
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #303F50;
+   margin: 3px 0 0 11px;
+}
+
+.kangndopostcontent ul>li, .kangndopost ul>li, .kangndotextblock ul>li, .kangndopostcontent ol, .kangndopost ol, .kangndotextblock ol
+{
+   padding: 0;
+}
+
+.kangndopostcontent ul>li, .kangndopost ul>li, .kangndotextblock ul>li
+{
+   padding-left: 17px;
+}
+
+.kangndopostcontent ul>li:before,  .kangndopost ul>li:before,  .kangndotextblock ul>li:before
+{
+   margin-left: -17px;
+}
+
+.kangndopostcontent ol, .kangndopost ol, .kangndotextblock ol, .kangndopostcontent ul, .kangndopost ul, .kangndotextblock ul
+{
+   margin: 1em 0 1em 11px;
+}
+
+.kangndopostcontent li ol, .kangndopost li ol, .kangndotextblock li ol, .kangndopostcontent li ul, .kangndopost li ul, .kangndotextblock li ul
+{
+   margin: 0.5em 0 0.5em 11px;
+}
+
+.kangndopostcontent li, .kangndopost li, .kangndotextblock li
+{
+   margin: 3px 0 0 0;
+}
+
+.kangndopostcontent ol>li, .kangndopost ol>li, .kangndotextblock ol>li
+{
+   /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.kangndopostcontent ul>li, .kangndopost ul>li, .kangndotextblock ul>li
+{
+   /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background: #EFF2F5 url('images/postquote.png') no-repeat scroll;
+   padding:10px 10px 10px 47px;
+   margin:10px 0 0 25px;
+   color: #0D1216;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+   /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .kangndopostcontent blockquote a, .kangndoblockcontent blockquote a, .kangndofooter blockquote a,
+blockquote a:link, .kangndopostcontent blockquote a:link, .kangndoblockcontent blockquote a:link, .kangndofooter blockquote a:link,
+blockquote a:visited, .kangndopostcontent blockquote a:visited, .kangndoblockcontent blockquote a:visited, .kangndofooter blockquote a:visited,
+blockquote a:hover, .kangndopostcontent blockquote a:hover, .kangndoblockcontent blockquote a:hover, .kangndofooter blockquote a:hover
+{
+   color: #0D1216;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+   text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.kangndopostcontent blockquote p,
+.kangndoblockcontent blockquote p,
+.kangndofooter blockquote p
+{
+   margin: 0;
+   margin: 5px 0;
+}
+
+.kangndofooter
+{
+   -webkit-border-radius:9px;
+   -moz-border-radius:9px;
+   border-radius:9px;
+   padding:5px;
+   margin:20px auto 0;
+   position: relative;
+   color: #FFFFFF;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+}
+
+.kangndofooter a,
+.kangndofooter a:link,
+.kangndofooter a:visited,
+.kangndofooter a:hover,
+.kangndofooter td, 
+.kangndofooter th,
+.kangndofooter caption
+{
+   color: #FFFFFF;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.kangndofooter p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.kangndofooter a,
+.kangndofooter a:link
+{
+   color: #FFFFFF;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.kangndofooter a:visited
+{
+   color: #FFFFFF;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.kangndofooter a:hover
+{
+   color: #FCA173;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.kangndofooter img
+{
+   border: none;
+   margin: 0;
+}
+
+.kangndorss-tag-icon
+{
+   background:  url('images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:25px;
+   min-width:25px;
+   display: inline-block;
+   text-indent: 28px;
+   background-position: left center;
+}
+
+.kangndorss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.kangndofooter ul>li:before
+{
+   content:url('images/footerbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -13px;
+}
+.opera .kangndofooter ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.kangndofooter li
+{
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #FEDDCD;
+}
+
+.kangndofooter ul>li, .kangndofooter ol
+{
+   padding: 0;
+}
+
+.kangndofooter ul>li
+{
+   padding-left: 13px;
+}
+
+.kangndopage-footer, 
+.kangndopage-footer a,
+.kangndopage-footer a:link,
+.kangndopage-footer a:visited,
+.kangndopage-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #647587;
+}
+
+.kangndopage-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #435970;
+}
+
+img.kangndolightbox
+{
+   cursor: pointer;
+}
+
+#kangndolightbox-bg *
+{
+   padding: 0;
+   margin: 0;
+}
+
+div#kangndolightbox-bg
+{
+   top: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+   z-index: 9999;
+}
+
+img.kangndolightbox-image
+{
+   -webkit-transition: opacity 350ms ease-in-out;
+   -moz-transition: opacity 350ms ease-in-out;
+   -o-transition: opacity 350ms ease-in-out;
+   -ms-transition: opacity 350ms ease-in-out;
+   transition: opacity 350ms ease-in-out;
+   cursor: pointer;
+   z-index: 10000;
+   position: fixed;
+   border: 6px solid #fff;
+   border-radius: 3px;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+
+img.kangndolightbox-image.active
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.lightbox-error
+{
+   position: fixed;
+   background: #fff;
+   z-index: 100;
+   opacity: 0.95;
+   padding: 20px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   width: 300px;
+   height: 80px;
+}
+
+.loading
+{
+   position: fixed;
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   width: 32px;
+   height: 32px;
+   z-index: 10100;
+   opacity: 0.5;
+   padding: 10px;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+}
+
+.arrow
+{
+   height: 100px;
+   width: 82px;
+   z-index: 10003;
+   position: fixed;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.arrow.left
+{
+   left: 9px;
+}
+.arrow.right
+{
+   right: 9px;
+}
+
+.arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.arrow.disabled 
+{
+   display: none;
+}
+
+.arrow-t, .arrow-b
+{
+   height: 6px;
+   width: 30px;
+   left: 26px;
+   background-color: #fff;
+   position: relative;
+   border-radius: 3px;
+}
+
+.arrow-t
+{
+   top: 38px;
+}
+
+.arrow-b
+{
+   top: 50px;
+}
+
+.close
+{
+   width: 22px;
+   height: 22px;
+   position: fixed;
+   top: 30px;
+   right: 39px;
+   cursor: pointer;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+
+.close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.close .cw, .close .ccw
+{
+   position: absolute;
+   top: 8px;
+   left: -4px;
+   width: 30px;
+   height: 6px;
+   background-color: #fff;
+   border-radius: 3px;
+}
+
+.cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt 
+{
+   display: none;
+   color: #fff;
+   font-size: 2.5em;
+}
+
+.ie8 .close-alt, .ie8 .arrow-right-alt, .ie8 .arrow-left-alt {
+   display: block;
+}
+.ie8 .cw, .ie8 .ccw {
+   display: none;
+}
+
+.kangndocontent-layout .kangndocontent
+{
+   margin:0 auto;
+}
+
+/* Begin Additional CSS Styles */
+
+/* End Additional CSS Styles */
